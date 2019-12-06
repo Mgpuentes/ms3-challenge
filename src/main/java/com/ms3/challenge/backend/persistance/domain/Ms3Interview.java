@@ -1,11 +1,11 @@
 package com.ms3.challenge.backend.persistance.domain;
 
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 /**
  * @author Matthew Puentes on 12/5/19
