@@ -22,7 +22,7 @@ public class Ms3Interview implements Serializable {
 
     @GenericGenerator(
             name = "sequenceStyleGenerator",
-            strategy = "org.hibernate.id.enhanced.sequenceStyleGenerator",
+            strategy = "org.hibernate.id.enhanced.SequenceStyleGenerator",
             parameters = {
                     @Parameter(name = "initial_value", value = "1"),
                     @Parameter(name = "increment_size", value = "1"),
@@ -32,7 +32,7 @@ public class Ms3Interview implements Serializable {
 
     @Id
     @GeneratedValue(generator = "sequenceStyleGenerator")
-    private long id;
+    private Long id;
 
     private String A;
     private String B;
