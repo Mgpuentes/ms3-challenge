@@ -114,8 +114,6 @@ public class Ms3InterviewServiceImpl implements Ms3InterviewService {
     /**
      * Writes to file.
      *
-     * Writes invalid records to csv file ?????????
-     *
      * @param ms3Interviews
      * @return
      * @throws IOException
