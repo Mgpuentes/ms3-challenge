@@ -2,6 +2,7 @@ package com.ms3.challenge.bootstrap;
 
 import com.ms3.challenge.backend.persistance.domain.Ms3Interview;
 import com.ms3.challenge.backend.service.Ms3InterviewService;
+import com.ms3.challenge.task.RecordWorker;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
